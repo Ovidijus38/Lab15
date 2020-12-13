@@ -15,6 +15,8 @@ public class FileInputStreamOutputStreamDemo {
 
         outStream.close();
 
+
+
         File inFile	= new File("demofile.data");
         FileInputStream inStream = new FileInputStream(inFile);
 
