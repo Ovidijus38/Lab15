@@ -6,6 +6,7 @@ public class SerialisationDemo {
 
     public static void main(String[] args) throws Exception {
 
+
         File outFile  = new File("books_computers.data");
 
         FileOutputStream outStream = new FileOutputStream(outFile);
@@ -35,7 +36,7 @@ public class SerialisationDemo {
 
         outStream.close();
 
-        File inFile	= new File("books_computers_2.data");
+        File inFile	= new File("books_computers.data");
         FileInputStream inStream = new FileInputStream(inFile);
 
         ObjectInputStream objectInStream = new ObjectInputStream(inStream);
